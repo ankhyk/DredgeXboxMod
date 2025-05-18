@@ -1,0 +1,13 @@
+﻿using System;
+
+public enum SnapshotType
+{
+	NONE,
+	UNDOCKED,
+	MUSIC_ONLY,
+	DOCKED_INDOORS,
+	DOCKED_OUTDOORS,
+	MENU,
+	LOADING,
+	CUTSCENE
+}

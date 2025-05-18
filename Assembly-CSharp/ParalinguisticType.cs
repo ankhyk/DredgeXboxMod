@@ -1,0 +1,21 @@
+﻿using System;
+
+public enum ParalinguisticType
+{
+	AAH,
+	CHUCKLE,
+	GASP,
+	GRUNT,
+	GURGLE,
+	HMM,
+	MUTTER,
+	SIGH,
+	WHIMPER,
+	MM,
+	ANNOYED,
+	THANKFUL,
+	LISTLESS,
+	EXASPERATED,
+	DISGUSTED,
+	IMPATIENT
+}

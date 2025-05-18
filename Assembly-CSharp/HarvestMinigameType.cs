@@ -1,0 +1,11 @@
+﻿using System;
+
+public enum HarvestMinigameType
+{
+	FISHING_RADIAL,
+	FISHING_PENDULUM,
+	FISHING_BALL_CATCHER,
+	FISHING_DIAMOND,
+	DREDGE_RADIAL,
+	FISHING_SPIRAL
+}

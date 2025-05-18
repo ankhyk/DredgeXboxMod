@@ -1,0 +1,15 @@
+﻿using System;
+
+public enum ActionLayer
+{
+	NONE,
+	SYSTEM,
+	PERSISTENT,
+	BASE,
+	DOCKED,
+	UI_WINDOW,
+	DIALOGUE,
+	POPUP_WINDOW,
+	PHOTO_MODE,
+	COUNT
+}

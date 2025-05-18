@@ -1,0 +1,13 @@
+﻿using System;
+
+public enum GridMode
+{
+	NONE,
+	DEFAULT,
+	STORAGE,
+	SELL_TYPE,
+	SELL_SPECIFIC,
+	BUY,
+	EQUIPMENT,
+	MAINTENANCE
+}

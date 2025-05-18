@@ -1,0 +1,17 @@
+﻿using System;
+
+public enum GaleCliffsMonsterHole
+{
+	NONE,
+	NORTH1,
+	NORTH2,
+	NORTH3,
+	NORTHWEST1 = 11,
+	NORTHWEST2,
+	NORTHEAST1 = 21,
+	NORTHEAST2,
+	SOUTH1 = 31,
+	SOUTH2,
+	SOUTHEAST1 = 41,
+	SOUTHEAST2
+}

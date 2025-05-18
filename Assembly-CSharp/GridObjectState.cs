@@ -1,0 +1,15 @@
+﻿using System;
+
+public enum GridObjectState
+{
+	NONE,
+	IN_INVENTORY,
+	IN_STORAGE,
+	IN_SHOP,
+	BEING_HARVESTED,
+	IN_QUEST_GRID,
+	IS_HINT,
+	JUST_PURCHASED,
+	MYSTERY,
+	IN_TRAY
+}

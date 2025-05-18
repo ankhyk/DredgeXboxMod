@@ -1,0 +1,12 @@
+﻿using System;
+
+public enum GadgetEffect
+{
+	NONE,
+	DREDGE_SPEED,
+	TURN_SPEED,
+	REVERSE_SPEED,
+	FISHING_SPEED,
+	HEAT_SINK,
+	TRAWL_CATCH_RATE
+}

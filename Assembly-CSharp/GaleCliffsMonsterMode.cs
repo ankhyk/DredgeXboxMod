@@ -1,0 +1,11 @@
+﻿using System;
+
+public enum GaleCliffsMonsterMode
+{
+	NONE,
+	PATROLLING,
+	MOVING_TO_PLAYER,
+	MOVING_TO_PLAYER_GHOST,
+	MOVING_TO_DESPAWN,
+	ATTACKING
+}
