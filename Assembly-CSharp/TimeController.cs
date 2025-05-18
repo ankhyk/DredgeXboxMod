@@ -167,14 +167,25 @@ public class TimeController : MonoBehaviour
 					this.currentTimePassageMode = TimePassageMode.NONE;
 					GameEvents.Instance.TriggerTimeForcefullyPassingChanged(false, "", this.currentTimePassageMode);
 				}
+				if (this._freezeTime)
+				{
+					num = 0m;
+				}
+				if (num > 0m)
+				{
+					this.timeProxy.SetTimeAndDay(this._timeAndDay + num);
+				}
 			}
-			if (this._freezeTime)
+			else
 			{
-				num = 0m;
-			}
-			if (num > 0m)
-			{
-				this.timeProxy.SetTimeAndDay(this._timeAndDay + num);
+				if (this._freezeTime)
+				{
+					num = 0m;
+				}
+				if (num > 0m)
+				{
+					this.timeProxy.SetTimeAndDay(this._timeAndDay + num / 2m);
+				}
 			}
 		}
 		this._timeAndDay = this.timeProxy.GetTimeAndDay();
