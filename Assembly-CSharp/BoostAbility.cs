@@ -95,7 +95,7 @@ public class BoostAbility : Ability
 			}
 			else
 			{
-				this.rawBurnAmount -= Time.deltaTime * this.hasteHeatLoss;
+				this.rawBurnAmount -= Time.deltaTime * this.hasteHeatLoss * 2f;
 			}
 			if (this.rawBurnAmount < 0f)
 			{
