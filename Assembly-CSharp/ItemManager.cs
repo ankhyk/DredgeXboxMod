@@ -107,6 +107,7 @@ public class ItemManager : MonoBehaviour, ILoader
 			else
 			{
 				num *= (decimal)GameManager.Instance.PlayerStats.ResearchedBarteringModifier;
+				num *= 2m;
 			}
 			return decimal.Round(num, 2);
 		}
