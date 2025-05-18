@@ -144,6 +144,7 @@ public class DockPOIHandler : MonoBehaviour
 		GameManager.Instance.Player.Controller.SetAutoMoveTarget(transform);
 		GameManager.Instance.Player.Controller.SetAutoRotateTarget(this.targetDockRotation);
 		this.dockingAudio.ToggleDockingLoop(true);
+		GameManager.Instance.Player.Controller.SetFastDock();
 	}
 
 	private void OnProgressChange()

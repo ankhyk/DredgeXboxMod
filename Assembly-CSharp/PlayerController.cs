@@ -243,6 +243,12 @@ public class PlayerController : MonoBehaviour
 		this._baseTurnSpeed = args[0].Float;
 	}
 
+	public void SetFastDock()
+	{
+		this._autoMoveSpeed = 5f;
+		this._lookSpeed = 5f;
+	}
+
 	[SerializeField]
 	private Rigidbody rb;
 
